@@ -80,7 +80,7 @@ class hmdb51(data.Dataset):
         if name_pattern:
             self.name_pattern = name_pattern
         else:
-            self.name_pattern = '1000%01d.jpg'
+            self.name_pattern = '1%05d.jpg'
         self.is_color = is_color
         self.num_segments = num_segments
         self.new_length = new_length
