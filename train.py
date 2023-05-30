@@ -95,9 +95,9 @@ def main():
 
     print('Saving everything to directory: %s.' % (save_location))
     if args.dataset == 'hmdb51':
-        dataset = './datasets/hmdb51/frames'
+        dataset = '/kaggle/input/hmdb51/HMDB51'
     elif args.dataset == 'ucf101':
-        dataset = '/datasets/ucf101/frames'
+        dataset = '/kaggle/input/hmdb51/HMDB51'
     else:
         print('No convenient dataset entered, exiting ...')
         return 0
